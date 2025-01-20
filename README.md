@@ -1,9 +1,14 @@
 # weaviate-quickstart
 
+Follow https://weaviate.io/developers/weaviate/quickstart
+
+## Usage
+Spin up a cluster, create a collection, import data, then run a semantic search query:
 ```bash
 % python quickstart_neartext_query.py
 ```
 
+Output:
 ```json
 {
   "answer": "Liver",
@@ -17,10 +22,12 @@
 }
 ```
 
+Perform RAG:
 ```bash
 % python quickstart_rag.py
 ```
 
+Output:
 ```text
 🚫🧠 Blood sugar regulator: Liver 🚀🍚 
 🧫🧬 DNA 🧫🧬 twins: Watson & Crick's legacy! 💡🧪 #ScienceFacts 🤓🌟
