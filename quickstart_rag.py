@@ -21,7 +21,7 @@ client = weaviate.connect_to_weaviate_cloud(
 questions = client.collections.get("Question")
 
 response = questions.generate.near_text(
-    query="biology",
+    query="animals that can fly",
     limit=2,
     grouped_task="Write a tweet with emojis about these facts."
 )

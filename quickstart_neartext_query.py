@@ -21,7 +21,7 @@ client = weaviate.connect_to_weaviate_cloud(
 questions = client.collections.get("Question")
 
 response = questions.query.near_text(
-    query="biology",
+    query="Things with trunks",
     limit=2
 )
 
